@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Responsive Navbars</title>
+        <link rel="stylesheet" href="../../public/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="../../public/node_modules/bootstrap/dist/css/bootstrap.css">
+        <style>
+            iframe{
+                width: 200px;
+                height: 90px;
+                background-color: blueviolet;
+                
+            }
+            navbar-nav:hover{
+                color: white;
+            }
+        </style>
+    </head>
+    <body class="container-fluid mt-4 ps-3">
+          <div class="navbar navbar=-dark navbar-expand-lg bg-success">
+            <div class="container-fluid">
+                <h2 class="navbar-brand">Amazon</h2>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+              <div class="navbar-collapse collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" style="color: red;">HOME</a></li>
+                    <li class="nav-item"><a target="frame body" href="./Navbars.html" class="nav-link">Carousel</a> </li>
+                        <li class="nav-item"> <div class="input-group">
+                            <input type="text" class="form-control">
+                            <button class="btn btn-warning"><span class="bi bi-search"></span></button>
+                        </div></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div>
+            <iframe name="frame body" src="./Navbars.html"> Nav bar</iframe>
+          </div>
+    </body>
+</html>
